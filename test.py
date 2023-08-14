@@ -88,7 +88,7 @@ def make_image_element(embedded_object) -> Optional[ImageElement]:
     kwargs = {}
 
     try:
-        uri = embedded_object.get("imageProperties").get("contentUri")
+        uri = embedded_object.get("imageProperties").get("sourceUri")
         
         kwargs["uri"] = uri
     except:

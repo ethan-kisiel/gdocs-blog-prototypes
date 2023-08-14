@@ -778,14 +778,14 @@
       },
       {
         "startIndex": 3790,
-        "endIndex": 3798,
+        "endIndex": 3797,
         "paragraph": {
           "elements": [
             {
               "startIndex": 3790,
-              "endIndex": 3798,
+              "endIndex": 3797,
               "textRun": {
-                "content": "Bullet4\n",
+                "content": "Bullet\n",
                 "textStyle": {}
               }
             }
@@ -819,23 +819,15 @@
         }
       },
       {
-        "startIndex": 3798,
-        "endIndex": 3806,
+        "startIndex": 3797,
+        "endIndex": 3805,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3798,
+              "startIndex": 3797,
               "endIndex": 3805,
               "textRun": {
-                "content": "bullet5",
-                "textStyle": {}
-              }
-            },
-            {
-              "startIndex": 3805,
-              "endIndex": 3806,
-              "textRun": {
-                "content": "\n",
+                "content": "Bullet5\n",
                 "textStyle": {}
               }
             }
@@ -864,6 +856,42 @@
             "listId": "kix.72ky2zovfn7",
             "textStyle": {
               "underline": false
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3805,
+        "endIndex": 3807,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3805,
+              "endIndex": 3806,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.sl1gcg704ldp",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 3806,
+              "endIndex": 3807,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
             }
           }
         }
@@ -1423,7 +1451,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4Luhm1pXYtUG52A6Xad6VaSP_Av-Ph9zxgRg9JnTpywJA9OlJR5DgMJ3RI0HhP5sxoazNdTBUplnsLwaPQ",
+  "revisionId": "ALBJ4LsHDT9ZHmv_wwN97QXGwCxVe5Nu49t_ZKj4k0HFmMRcnZlk6qhRIi_fQrmvLdobKL0_TMJE6Vww7gjaYA",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "inlineObjects": {
     "kix.cfo3g851mjj6": {
@@ -1431,7 +1459,7 @@
       "inlineObjectProperties": {
         "embeddedObject": {
           "imageProperties": {
-            "contentUri": "https://lh3.googleusercontent.com/Ct7m4nGCAdNvKqH2wz_cNJGOQOzhSYmsitnc4AiZ6H9IRFwmm5ydkeCpO8-7UfLectsfkXbYNf23ONPV0xsw5-z7COjPGwd3cVL18tTASChH8mFvfj6o3cSdXMMvcQerHBeo1-xVCIlEoKevTVADiSV-FbXL5RC2",
+            "contentUri": "https://lh4.googleusercontent.com/cG_KzlyVinT3VW1oWX2ZZu13TWlLOaYNoKBKIUTOsqFkPBz9pQR_Sfy34jIY5nY91tFrt9Mvhf8-oUOyQNresRVlZE4OuAVs4fmu49gtiiIgDauSBwkpUXf844aKFw5SAlw5Xtt16tuulVBAc6nqQMwDIDi_mbkI",
             "cropProperties": {}
           },
           "description": "ALT TEXT HERE",
@@ -1450,6 +1478,56 @@
           "size": {
             "height": {
               "magnitude": 490,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 468,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    },
+    "kix.sl1gcg704ldp": {
+      "objectId": "kix.sl1gcg704ldp",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh5.googleusercontent.com/s40PO5MmuFD86xdrPorfgFc_VYP8YT3pA67nt6KxsImjcjugvkQxt1k6DsLbyLrf8m3VVcpAuQrOUehocsfIY3t6ZgjnjimqGhZbEyaTyI1-bmhgyFwSN5K7P5RXwdxee6Xvn8lTPJShGsRoVncwPOonMHS8lq2q",
+            "sourceUri": "https://miro.medium.com/v2/resize:fit:800/1*gGzjds6d329U8umqHI0nKQ.jpeg",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 351,
               "unit": "PT"
             },
             "width": {
